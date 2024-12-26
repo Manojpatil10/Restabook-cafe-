@@ -18,7 +18,7 @@ $(document).ready(function(){
     }
   })
 
-  $(".mobile-nav").slideUp();
+  // $(".mobile-nav").slideUp();
   $(".hamburger").click(function(){
     $(".mobile-nav").slideToggle("slow");
   })
